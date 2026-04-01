@@ -9,7 +9,7 @@ Süre: 15 Dakika | Sistem Sikleti: 50 KG
 
 Teknik Detay: Dashboard iskeleti ve canlı veri akışları için temel state yönetimi kuruldu.
 
-📂 Kanıtlar: *[(https://github.com/KULLANICI_ADIN/REPO_ADIN/blob/main/images/1-giris.png)]
+📂 Kanıtlar: [( https://github.com/ravzanurerdogan/NaimAI-Hercules/blob/main/images/1-giris.png)]
                [( https://github.com/ravzanurerdogan/NaimAI-Hercules/blob/main/images/1-red.png)]
                 [(https://github.com/ravzanurerdogan/NaimAI-Hercules/blob/main/images/1-basar%C4%B1.png)]
 
