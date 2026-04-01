@@ -1,55 +1,52 @@
-🦾 NAIM HERCULES | MASTER PROJECT V9.0
-Karpathy Döngüsü Tabanlı Tam Otonom Karar Mekanizması ve Kontrol Paneli
 📝 Proje Vizyonu
 NAIM HERCULES, endüstriyel lojistik ve akıllı tarım ekosistemleri için geliştirilmiş, "Sıfır İnsan Müdahalesi" hedefleyen bir master kontrol panelidir. 50 KG'lık bir başlangıç iskeletinden başlayıp, 250 KG+ yük taşıyabilen otonom sistemleri yönetebilecek bir Master V9.0 kapasitesine ulaştırılmıştır.
 
 🚀 Gelişim Süreci, Siklet ve Teknik Aşamalar
 1. Aşama: Core Architecture & UI Foundation
-Harcanan Süre: 15 Dakika
+Süre: 15 Dakika | Sistem Sikleti: 50 KG
 
-Sistem Sikleti: 50 KG
+Teknik Detay: Dashboard iskeleti ve canlı veri akışları (Lityum, Nvidia, Pamuk) için temel state yönetimi kuruldu.
 
-Teknik Detay: Projenin ana iskeleti ve görsel dili oluşturuldu. Canlı veri akışları için state yönetimi kuruldu.
-
-📂 Kanıt Dosyası: 1-giris.png Görüntüle | 1-veri.png Görüntüle
+📂 Kanıt: Dashboard Giriş Ekranı | Canlı Veri Akış Testi
 
 2. Aşama: Log Engine & Registry System
-Harcanan Süre: 15 Dakika
+Süre: 15 Dakika | Sistem Sikleti: 120 KG
 
-Sistem Sikleti: 120 KG
+Teknik Detay: Otonom sistemin hamlelerini kayıt altına alan Trade Log motoru geliştirildi. Başarılı işlemler ve riskli emir reddi protokolleri test edildi.
 
-Teknik Detay: Otonom sistemin tüm hamlelerini saniye bazlı kayıt altına alan Trade Log motoru geliştirildi.
-
-📂 Kanıt Dosyası: 2-gunluk.png Görüntüle
+📂 Kanıt: Başarılı İşlem Kaydı | Riskli İşlem Reddi Protokolü
 
 3. Aşama: Dynamic UI & High-Performance Animation
-Harcanan Süre: 20 Dakika
+Süre: 20 Dakika | Sistem Sikleti: 180 KG
 
-Sistem Sikleti: 180 KG
+Teknik Detay: React Native Animated API ile verimlilik nabız efekti ve görsel evrim merkezi optimize edildi.
 
-Teknik Detay: React Native Animated API kullanılarak sistem verimliliğini gösteren dinamik bir nabız (pulse) efekti eklendi.
+📂 Kanıt: Evrim ve Kontrol Merkezi
 
-📂 Kanıt Dosyası: 3-evrim.png Görüntüle
+4. Aşama: Otonom Hata Analiz Simülasyonu
+Süre: 15 Dakika | Sistem Sikleti: 220 KG
 
-4. Aşama: Karpathy Otonom Core (Final)
-Harcanan Süre: 25 Dakika
+Teknik Detay: Sistemin kendi hatalarını tespit etme ve verimlilik düşüşünü kullanıcıya kırmızı alert ile bildirme mekanizması simüle edildi. Kalabalık veri setleri altında sistem stabilitesi ölçüldü.
 
-Sistem Sikleti: 250 KG+ (MASTER)
+📂 Kanıt: Hata Tespit ve Alert Mekanizması
 
-Teknik Detay: Karpathy Döngüsü v9.0 entegrasyonu tamamlandı. Sistem; kendi başına analiz yapma ve "Self-Healing" özelliklerini kazandı.
+5. Aşama: Karpathy Otonom Core (Final Master)
+Süre: 25 Dakika | Sistem Sikleti: 250 KG+ (MASTER)
 
-🎬 Operasyon Videosu: 4-otonom_master_v9.mp4 İzle
+Teknik Detay: Karpathy Döngüsü v9.0 entegrasyonu tamamlandı. Sistem; kendi başına piyasa analizi yapma ve "Self-Healing" (Kendi Kendini Onarma) yeteneklerini kazandı.
+
+🎬 Operasyon Videosu: V9.0 Otonom Çalışma Videosunu İzle
 
 🧩 Teknik İnovasyonlar ve Çözülen Problemler
-Performans Optimizasyonu: useRef ve useEffect kancalarıyla bellek yönetimi yapıldı.
+Performans Optimizasyonu: Yoğun veri akışında UI'ın takılmaması için useRef ve useEffect kancalarıyla bellek yönetimi yapıldı.
 
-Otonom Güvenlik Filtresi: Riskli emirlerin sistem tarafından otomatik olarak reddedilmesi sağlandı.
+Otonom Güvenlik Filtresi: Riskli emirlerin sistem tarafından otomatik olarak reddedilmesi ve güvenli moda geçiş sağlandı.
 
 Dinamik Verimlilik Takibi: Sistem kendi performansını % bazında ölçüp anlık olarak arayüze yansıtmaktadır.
 
 🛠 Kurulum ve Çalıştırma
-Projeyi klonlayın: git clone [SİZİN_REPO_LİNKİNİZ]
+git clone [SİZİN_REPO_LİNKİNİZ]
 
-Bağımlılıkları yükleyin: npm install
+npm install
 
-Uygulamayı başlatın: npx expo start
+npx expo start
